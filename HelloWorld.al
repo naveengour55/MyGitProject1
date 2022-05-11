@@ -6,7 +6,6 @@ pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('TEST1');
-        Message('TEST2');
+        Message('TEST: This clone Repo');
     end;
 }
